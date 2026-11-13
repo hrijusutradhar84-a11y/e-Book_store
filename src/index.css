@@ -3,3 +3,27 @@
 @theme {
   --font-cinzel: "Cinzel", serif;
 }
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes glowPulseA {
+  from { opacity: 0.55; }
+  to   { opacity: 1.0;  }
+}
+@keyframes glowPulseB {
+  from { opacity: 0.40; }
+  to   { opacity: 0.85; }
+}
+@keyframes glowPulseC {
+  from { opacity: 0.30; }
+  to   { opacity: 0.70; }
+}
